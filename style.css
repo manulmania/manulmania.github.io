@@ -1,0 +1,102 @@
+
+    body {
+      margin: 0;
+      font-family: sans-serif;
+    }
+    .content {
+        margin: 20px auto;
+        max-width: 800px;
+        padding: 0 20px;
+        line-height: 1.6;
+    }
+    p {
+        margin: 20px auto;
+        max-width: 800px;
+        padding: 0 20px;
+        line-height: 1.6;
+    }
+    .top-bar {
+        background-color: #f0f0f0;
+        padding: 20px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-bottom: 2px solid #ccc;
+        
+    }
+
+    .header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header img {
+      height: 100px;
+      width: 100px;
+      margin-bottom: 10px;
+    }
+
+    .header h1 {
+      font-size: 24px;
+      font-weight: bold;
+      margin: 0;
+    }
+
+    .nav-buttons {
+      margin-top: 10px;
+      display: flex;
+      gap: 20px;
+    }
+
+    .nav-buttons a {
+      text-decoration: none;
+      padding: 8px 16px;
+      background-color: #007BFF;
+      color: white;
+      border-radius: 5px;
+      transition: background-color 0.2s;
+    }
+
+    .nav-buttons a:hover {
+      background-color: #0056b3;
+    }
+
+    .blog-list {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .blog-list li {
+        margin: 8px 0;
+    }
+
+    .blog-list a {
+        text-decoration: none;
+        color: #007BFF;
+        transition: color 0.2s;
+    }
+
+    .blog-list a:hover {
+        color: #0056b3;
+    }
+
+    .image-list {
+        list-style: none;     /* ✅ removes the bullet dots */
+        padding: 0;
+        margin: 20px 0;
+    }
+    
+    .image-list li {
+        margin-bottom: 16px; /* this adds the gap between images */
+    }
+
+    .image-list img {
+        max-width: 800px; /* or whatever width you prefer */
+        width: 100%;
+        height: auto;
+        display: block;
+        border-radius: 8px;
+    }
