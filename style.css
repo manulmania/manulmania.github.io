@@ -16,13 +16,13 @@
         line-height: 1.6;
     }
     .top-bar {
-        background-color: #f0f0f0;
+        background-color: #000000;
         padding: 20px 0;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        border-bottom: 2px solid #ccc;
+        border-bottom: 2px solid #7e7e7e;
         
     }
 
@@ -100,3 +100,9 @@
         display: block;
         border-radius: 8px;
     }
+  @media (prefers-color-scheme: dark) {
+    body {
+      background-color: #121212;
+      color: #e0e0e0;
+    }
+  }
